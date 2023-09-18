@@ -1,0 +1,59 @@
+*, *::after, *::before{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat-Regular, Helvetica, Arial, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.header {
+    height: 60px;
+    background-color: #2749A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 190px;
+    font-size: 12.8px;
+}
+
+.navlink{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin: 0 15px;
+}
+.navigation {
+    display: flex;
+    align-items: flex-start;
+
+}
+.contact {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 15px;
+    
+}
+
+.tstu {
+    background-color: #FFFFFF;
+    min-height: 500px;
+}
+
+.tstu1 {
+    margin: 28px 220px;
+}
+
+.sitenav {
+}
+
+.siten {
+}
+
+.sitebutton {
+}
+
+.nn {
+}
