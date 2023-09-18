@@ -1,0 +1,69 @@
+*, *::after, *::before{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat-Regular, Helvetica, Arial, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.header {
+}
+
+.head {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.mk{
+    position: absolute;
+    z-index: 100;
+    left: 49px;
+    top: 10px;
+}
+
+.color_span{
+    padding: 8px 110px 0;
+    color: #DE6429;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.color{
+    background-color: #2749A1;
+    height: 30px;
+    min-width: 100%;
+}
+
+.aheader {
+
+}
+
+.navigation {
+    display: block;
+    text-align: center;
+    
+}
+
+.navv{
+    position: absolute;
+    z-index: 100; 
+}
+
+.navia {
+    font-size: 12.8px;
+    color: #FFFFFF;
+}
+
+.oblazt {
+
+}
