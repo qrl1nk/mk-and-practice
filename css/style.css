@@ -39,20 +39,47 @@ body{
 
 .tstu {
     background-color: #FFFFFF;
-    min-height: 500px;
+    min-width: 500px;
 }
 
 .tstu1 {
     margin: 28px 220px;
 }
 
+.hr{
+    width: 100%;
+    height: 1.25px;
+    /* background-color: #D9D9D9; */
+    background-color: rgba(217, 217, 217, .7);
+}
+
 .sitenav {
+    margin: 18px 130px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
 }
 
 .siten {
+    display: flex;
+    align-items: center;
+    color: #0D6EFD;
+    font-size: 15px;
 }
 
 .sitebutton {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    background-color: #DE6429;
+    border-radius: 20px;
+    padding: 8px 18px;
+}
+
+.sitebutton:hover{
+    scale: (2.5);
 }
 
 .nn {
