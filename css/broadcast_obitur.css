@@ -49,19 +49,29 @@ body{
 }
 
 .navigation {
-    display: block;
-    text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px; 
 }
 
 .navv{
-    position: absolute;
     z-index: 100; 
+    display: flex;
+    gap: 30px;
+}
 }
 
 .navia {
     font-size: 12.8px;
     color: #FFFFFF;
+    position: relative;
+}
+
+.navia > img
+{
+    position: absolute;
+    top: -3px;
 }
 
 .oblazt {
