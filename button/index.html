@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn" id="btn">
+            <span class="link_text">Абитуриентам </span>
+            <img src="/img/keyboard_arrow_down_blue.svg" alt="" class="img">
+        </button>
+        <div id="myDropdown" class="dropdown_content">
+            <a href="">link1</a>
+            <a href="">link2</a>
+            <a href="">link3</a>
+            <a href="">link4</a>
+        </div>
+    </div>
+    <style>
+        .dropbtn{
+            background-color: #E9ECEF;
+            border: #E9ECEF;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .link_text{
+            color: #0D6EFD;
+            font-weight: 700;
+            font-size: 12.8px;
+        }
+
+        .img{
+            margin: -7px 0;
+        }
+
+        .dropdown_content{
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 260px;
+            background-color: #E9ECEF;
+            border-radius: 10px;
+        }
+
+
+        .show{
+            display: flex;
+        }
+    </style>
+    <script>
+    const btn = document.getElementById("btn");
+    function showDropDown(dropdown) {
+    const list = document.getElementById(dropdown);
+    list.classList.toggle("show");
+
+}
+    btn.addEventListener('click', () => {
+        showDropDown("myDropdown");
+    });
+    </script>
+</body>
+</html>

@@ -18,9 +18,15 @@
                     <div class="color">
                         <div class="navigation">
                             <div class="navv">
-                                <a href="" class="navia oblazt">
-                                    <span>Абитуриентам </span>
+                                <a href="" class="navia oblazt" onclick="myFunction()">
+                                    <span class="link_text">Абитуриентам </span>
                                     <img src="/img/keyboard_arrow_down_blue.svg" alt="" class="img">
+                                    <div id="myDropdown" class="dropdown_content">
+                                        <a href="#">link1</a>
+                                        <a href="#">link2</a>
+                                        <a href="#">link3</a>
+                                        <a href="#">link4</a>
+                                    </div>
                                 </a>
                                 <a href="" class="navia">
                                     <span>Студентам </span>
@@ -40,6 +46,8 @@
                 </div>
             </a>
         </div>
+    </header>
+
         <div class="hr"></div>
         <div class="flex">
             <div class="ASIDE">
@@ -90,12 +98,19 @@
                             <p>  Выбирайте Тамбовский государственный технический университет и присоединяйтесь к дружной семье ТГТУ. Ваше будущее начинается уже сегодня! Успехов! И добро пожаловать!</p>
                         </div>
                         <div class="rector">
-                            
+                            <span>С уважением, Ректор ТГТУ, профессор Российской академии наук, Михаил Николаевич Краснянский.</span>
                         </div>
+                        <button class="button_main"><span class="button_text">На главную страницу</span></button>
                     </div>
                 </main>
             </div>
         </div>
-    </header>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+
+    </script>
 </body>
 </html>
