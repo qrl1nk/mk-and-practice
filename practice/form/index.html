@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шарапова КСП217</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <form action="#" class="Form">
+            <p class="main_form">Анкета пользователя</p>
+            <fieldset>
+                <legend class="name">Контактная информация</legend>
+                <label for="name">Фамилия <em>*</em></label>
+                <input type="text" id="surname"><br>
+                <label for="name">Имя  <em>*</em></label>
+                <input type="text" id="name"><br>
+                <label for="gender">Страна  <em>*</em></label>
+                <select id="country">
+                    <option value="Russia">Россия</option>
+                    <option value="Canada">Канада</option>
+                    <option value="USA">США</option>
+                    <option value="China">Китай</option>
+                    <option value="Brazil">Бразилия</option>
+                </select><br>
+                <textarea name="text" cols="35" rows="12" placeholder="Расскажите о себе"></textarea><br>
+                <label for="gender">Пол <em>*</em></label>
+                <select name="gender">
+                    <option value="male">Мужской</option>
+                    <option value="female">Женский</option>
+                </select><br>
+                <label for="date">Дата рождения <em>*</em></label>
+                <input type="date"><br>
+                <label for="email">E-mail <em>*</em></label>
+                <input type="email"><br>
+                <legend>Для чего проходите анкету? <em>*</em></legend>
+                <label for="test"><input type="checkbox">Проверить работоспособность</label>
+                <label for="fun"><input type="checkbox">Для веселья</label>
+                <label for="registration"><input type="checkbox">Регистрация</label>
+                <label for="dont_know"><input type="checkbox">Не знаю</label>
+            </fieldset>
+            <p><input type="button" value="Отправить информацию"></p>
+        </form>
+    </div>
+</body>
+</html>
