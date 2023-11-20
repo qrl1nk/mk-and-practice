@@ -1,0 +1,296 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* header */
+
+
+.head {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.aheader {
+    display: flex;
+    position: relative;
+}
+
+.mk {
+    position: absolute;
+    z-index: 100;
+    left: 49px;
+    top: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.mk {
+    position: absolute;
+    z-index: 100;
+    left: 49px;
+    top: 10px;
+}
+
+.color_span {
+    padding: 8px 110px 0;
+    color: #DE6429;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.color {
+    background-color: #2749A1;
+    height: 30px;
+    min-width: 100%;
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.navv {
+    z-index: 100;
+    display: flex;
+    gap: 20px;
+}
+
+.navia {
+    font-size: 12.8px;
+    color: #FFFFFF;
+    position: relative;
+    padding: 1px 0;
+}
+
+.img {
+    margin: -5px 0;
+}
+
+.oblazt {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 125px;
+}
+
+.link_text {
+    color: #0D6EFD;
+    font-weight: 700;
+    display: block;
+}
+
+/* main */
+
+.main_information{
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: row;
+}
+
+/* aside */
+
+.hr {
+    margin-top: 57px;
+    width: 275px;
+    height: 2.5px;
+    border-radius: 0.5px;
+    /* background-color: #D9D9D9; */
+    background-color: #2749A1;
+}
+
+.windows {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.windowsA {
+    font-size: 12.8px;
+    color: #DE6429;
+    font-weight: 550;
+}
+
+.aside {
+    width: 275px;
+    height: 87vh;
+    background-color: rgba(217, 217, 217, 0.9);
+    padding: 10px 0 0;
+}
+
+ul {
+    margin: 0 25px;
+    line-height: 20px;
+}
+
+.aside_navigation {
+    font-size: 12.8px;
+    color: black;
+}
+
+/* content */
+
+.content{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.form > h1{
+    padding: 20px 0;
+}
+
+.name,
+.e-mail,
+.question {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 15px 0;
+}
+
+.question > textarea{
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid #2749A1;
+}
+
+.form > div > input{
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid #2749A1;
+}
+
+.form > div > span{
+    font-size: 18px;
+    color: #153485;
+}
+
+
+#modal{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal_dialog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 100px;
+}
+
+.modal_dialog > span{
+    font-size: 20px;
+}
+
+#button_close,
+#button_open{
+    padding: 10px;
+    background-color: #2749A1;;
+    border: 1px solid #153485;
+    border-radius: 10px;
+    color: #f3f3f3;
+    font-size: 18px;
+}
+
+/* footer */
+
+.footer_information {
+    background-color: #2749A1;
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.telephone > p > a {   
+    color: #f3f3f3;
+}
+
+
+.links > p > a {
+    color: #f3f3f3;
+}
+
+.address,
+.telephone,
+.links {
+    border-right: 1px solid #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    max-width: 240px;
+    color: #FFFFFF;
+}
+
+.QRcode {
+    display: flex;
+    gap: 40px;
+}
+
+.pay ,
+.donation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.pay >img ,
+.donation > img{
+    padding: 10px 0;
+}
+
+.footer {
+    background-color: #153485;
+    color: #FFFFFF;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.footer_year{
+    display: flex;
+    gap: 30px;
+}
