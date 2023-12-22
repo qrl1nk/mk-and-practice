@@ -6,3 +6,7 @@ Stack:
 - CSS
 - JS
 -------
+Devs:
+- <a href="https://github.com/qrl1nk">qrl1nk</a>
+- <a href="https://github.com/ant1quariat">ant1quariat</a>
+-------
