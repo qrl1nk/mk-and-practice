@@ -1,0 +1,2 @@
+[1] Refactor HTML code
+[2] Full refactor css-files
