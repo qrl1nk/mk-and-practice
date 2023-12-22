@@ -7,6 +7,7 @@ Stack:
 - JS
 -------
 Devs:
-- <a href="https://github.com/qrl1nk">qrl1nk</a>
-- <a href="https://github.com/ant1quariat">ant1quariat</a>
+- <a href="https://github.com/qrl1nk">qrl1nk (Шарапова)</a>
+- <a href="https://github.com/ant1quariat">ant1quariat (Загороднев)</a>
+- <a href="https://github.com/YasanneGod">YasanneGod (Тишулин)</a>
 -------
